@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
           padding: const EdgeInsets.all(8.0),
           child: TextButton.icon(
             onPressed: () {
-              Navigator.pushNamed(context, "/choose_location");
+              Navigator.pushNamed(context,"/choose_location");
             },
             icon: Icon(Icons.add_location,color: Colors.grey[600]),
             label: Text("Home", style: TextStyle(color: Colors.grey[600])),
