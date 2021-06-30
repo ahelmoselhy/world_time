@@ -1,10 +1,9 @@
 class Post {
-   int _userId = 0;
-   int _id = 0;
-   String _title = "";
-   bool _completed = false;
+   int userId = 0;
+   int id = 0;
+   String title = "";
+   bool completed = false;
 
-
-
+   Post(this.userId, this.id, this.title);
 
 }
